@@ -422,6 +422,10 @@ video {
   display: none;
 }
 
+h1 {
+  color: purple;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -527,6 +531,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -535,3 +544,4 @@ video {
   text-decoration-line: underline;
 }
 
+/*learning about layer & apply */

@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/*learning about layer & apply */
+@layer base {
+    h1 {
+        color: purple;
+    }
+
+}
