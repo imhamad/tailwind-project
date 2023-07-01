@@ -1,9 +1,14 @@
 // comment in js
 module.exports = {
     content: ['./src/**/*.{html,js}'],
+    content: ['*.{html,js}'],
     // exporting content
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                huge: '2000px',
+            },
+        },
     },
     plugins: [],
 
@@ -11,4 +16,4 @@ module.exports = {
 
 // Now command for NPX
 
-// npx tailwindcss -i dist/input.css -o src/output.css
+// npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
