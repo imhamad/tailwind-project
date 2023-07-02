@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch "
+    "start": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify --watch "
   },
   "devDependencies": {
     "postcss": "^8.4.24",
